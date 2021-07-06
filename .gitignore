@@ -1,1 +1,5 @@
+# forward slash at the end ignores the item everywhere no matter the nesting level
 node_modules/
+
+# forward slash at the beginning will only ignore at the current directory
+/.env
